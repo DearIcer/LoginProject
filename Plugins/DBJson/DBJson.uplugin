@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.2",
+	"FriendlyName": "DBJson",
+	"Description": "DBJso is a plug-in that serializes a String into a UStruct and deserializes a UStruct into a String",
+	"Category": "Other",
+	"CreatedBy": "DearBing",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/zh-CN/profile/DearBing?count=20&sortBy=effectiveDate&sortDir=DESC&start=0",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/64d40a8dc7e44719839fb97ff6337110",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DBJson",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "DBJsonBlueprintSupport",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}

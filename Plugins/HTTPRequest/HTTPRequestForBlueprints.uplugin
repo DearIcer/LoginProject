@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "5",
+	"FriendlyName": "HTTP Request For Blueprints",
+	"Description": "Making HTTP Requests easy.",
+	"Category": "Other",
+	"CreatedBy": "King Wai Mark",
+	"CreatedByURL": "https://codeible.com/",
+	"DocsURL": "https://codeible.com/view/videotutorial/l3YmQNogvPWK2zhtkzXM",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4a9830d1cea14a28bae31127f41a210b",
+	"SupportURL": "https://github.com/IamKingWaiMark/HTTPRequestForBlueprintsSupport",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HTTPRequestForBlueprints",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"Android",
+				"IOS",
+				"Linux"
+			]
+		}
+	]
+}
